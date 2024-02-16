@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libBubbleSort.a CMakeFiles/BubbleSort.dir/BubbleSort.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libBubbleSort.a
