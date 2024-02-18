@@ -40,8 +40,11 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
   /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common/common.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/BubbleSort.h
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/BubbleSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.h
 
+
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.h:
 
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common/common.h:
 

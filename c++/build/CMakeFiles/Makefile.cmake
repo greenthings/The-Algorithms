@@ -54,4 +54,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.dir/DependInfo.cmake"
   "common/CMakeFiles/common.dir/DependInfo.cmake"
   "sorting_algorithms/CMakeFiles/BubbleSort.dir/DependInfo.cmake"
+  "sorting_algorithms/CMakeFiles/SelectionSort.dir/DependInfo.cmake"
   )

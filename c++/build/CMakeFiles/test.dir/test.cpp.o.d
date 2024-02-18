@@ -38,4 +38,5 @@ CMakeFiles/test.dir/test.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
   /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./common/common.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./sorting_algorithms/BubbleSort.h
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./sorting_algorithms/BubbleSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./sorting_algorithms/SelectionSort.h
