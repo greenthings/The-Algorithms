@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <stdio.h>
 
 #include "./common/common.h"
@@ -9,10 +10,15 @@ using namespace std;
 int arr[10] = {10, 40, 30, 50, 11, 21, 99, 11};
 
 int main() {
-
+  // Original Array
+  printf("Original Array \n");
   printArray(arr);
+  printf("\n");
+
+  // You can choose algorithms
+  BubbleSort_using_nested_loop(arr);
   // BubbleSort_using_do_while(arr);
-  SelectionSort(arr);
+  // SelectionSort(arr);
   printArray(arr);
 
   return 0;
