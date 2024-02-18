@@ -9,11 +9,14 @@
 # add_library(sorting_algorithms STATIC ${SRC_FILES})
 
 add_library(BubbleSort STATIC BubbleSort.cpp)
+add_library(SelectionSort STATIC SelectionSort.cpp)
 
 # Header File Path
 # target_include_directories(sorting_algorithms PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
 target_include_directories(BubbleSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
+target_include_directories(SelectionSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
 
 
 # Compile Option
 target_compile_options(BubbleSort PRIVATE -Wall)
+target_compile_options(SelectionSort PRIVATE -Wall)
