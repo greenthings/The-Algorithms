@@ -22,7 +22,7 @@ void swap(int &a, int &b) {
 // count array elements
 int countArrayElements(int arr[]) {
   int count = 0;
-  for (int i = 0; arr[i] < '\0'; i++) {
+  for (int i = 0; arr[i] != '\0'; i++) {
     count++;
   }
   return count;
