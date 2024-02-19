@@ -181,6 +181,19 @@ InsertionSort/fast:
 	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/build
 .PHONY : InsertionSort/fast
 
+#=============================================================================
+# Target rules for targets named RadixSort
+
+# Build rule for target.
+RadixSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RadixSort
+.PHONY : RadixSort
+
+# fast build rule for target.
+RadixSort/fast:
+	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/RadixSort.dir/build.make sorting_algorithms/CMakeFiles/RadixSort.dir/build
+.PHONY : RadixSort/fast
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -215,6 +228,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
 	@echo "... InsertionSort"
+	@echo "... RadixSort"
 	@echo "... SelectionSort"
 	@echo "... common"
 	@echo "... test"

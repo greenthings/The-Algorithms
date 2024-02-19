@@ -4,11 +4,12 @@
 #include "./common/common.h"
 #include "./sorting_algorithms/BubbleSort.h"
 #include "./sorting_algorithms/InsertionSort.h"
+#include "./sorting_algorithms/RadixSort.h"
 #include "./sorting_algorithms/SelectionSort.h"
 
 using namespace std;
 
-int arr[10] = {10, 40, 30, 50, 11, 21, 99, 11};
+int arr[10] = {12, 43, 34, 55, 16, 27, 99, 11};
 
 int main() {
   // Original Array
@@ -20,8 +21,9 @@ int main() {
   // BubbleSort_using_nested_loop(arr);
   // BubbleSort_using_do_while(arr);
   // SelectionSort(arr);
-  InsertionSort(arr);
-  printArray(arr);
+  // InsertionSort(arr);
+  RadixSort(arr);
+  //printArray(arr);
 
   return 0;
 }
