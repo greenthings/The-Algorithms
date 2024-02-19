@@ -2,3 +2,4 @@
 
 void printArray(int arr[]);
 void swap(int &a, int &b);
+int countArrayElements(int arr[]);
