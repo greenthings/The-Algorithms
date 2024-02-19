@@ -168,6 +168,19 @@ SelectionSort/fast:
 	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/SelectionSort.dir/build.make sorting_algorithms/CMakeFiles/SelectionSort.dir/build
 .PHONY : SelectionSort/fast
 
+#=============================================================================
+# Target rules for targets named InsertionSort
+
+# Build rule for target.
+InsertionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InsertionSort
+.PHONY : InsertionSort
+
+# fast build rule for target.
+InsertionSort/fast:
+	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/build
+.PHONY : InsertionSort/fast
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -201,6 +214,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
+	@echo "... InsertionSort"
 	@echo "... SelectionSort"
 	@echo "... common"
 	@echo "... test"

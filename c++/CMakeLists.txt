@@ -11,6 +11,7 @@ add_executable(test test.cpp)
 target_link_libraries(test PRIVATE common)
 target_link_libraries(test PRIVATE BubbleSort)
 target_link_libraries(test PRIVATE SelectionSort)
+target_link_libraries(test PRIVATE InsertionSort)
 
 target_include_directories(test PRIVATE ${CMAKE_SOURCE_DIR}/common)
 target_include_directories(test PRIVATE ${CMAKE_SOURCE_DIR}/sorting_algorithms)

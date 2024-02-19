@@ -1,5 +1,7 @@
-CMakeFiles/test.dir/test.cpp.o: \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/test.cpp \
+sorting_algorithms/CMakeFiles/InsertionSort.dir/InsertionSort.cpp.o: \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.cpp \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/../common/common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
@@ -40,8 +42,4 @@ CMakeFiles/test.dir/test.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./common/common.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./sorting_algorithms/BubbleSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./sorting_algorithms/InsertionSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/./sorting_algorithms/SelectionSort.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h

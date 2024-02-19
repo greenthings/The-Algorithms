@@ -144,6 +144,20 @@ SelectionSort/fast:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/SelectionSort.dir/build.make sorting_algorithms/CMakeFiles/SelectionSort.dir/build
 .PHONY : SelectionSort/fast
 
+# Convenience name for target.
+sorting_algorithms/CMakeFiles/InsertionSort.dir/rule:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sorting_algorithms/CMakeFiles/InsertionSort.dir/rule
+.PHONY : sorting_algorithms/CMakeFiles/InsertionSort.dir/rule
+
+# Convenience name for target.
+InsertionSort: sorting_algorithms/CMakeFiles/InsertionSort.dir/rule
+.PHONY : InsertionSort
+
+# fast build rule for target.
+InsertionSort/fast:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/build
+.PHONY : InsertionSort/fast
+
 BubbleSort.o: BubbleSort.cpp.o
 .PHONY : BubbleSort.o
 
@@ -167,6 +181,30 @@ BubbleSort.s: BubbleSort.cpp.s
 BubbleSort.cpp.s:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/BubbleSort.dir/build.make sorting_algorithms/CMakeFiles/BubbleSort.dir/BubbleSort.cpp.s
 .PHONY : BubbleSort.cpp.s
+
+InsertionSort.o: InsertionSort.cpp.o
+.PHONY : InsertionSort.o
+
+# target to build an object file
+InsertionSort.cpp.o:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/InsertionSort.cpp.o
+.PHONY : InsertionSort.cpp.o
+
+InsertionSort.i: InsertionSort.cpp.i
+.PHONY : InsertionSort.i
+
+# target to preprocess a source file
+InsertionSort.cpp.i:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/InsertionSort.cpp.i
+.PHONY : InsertionSort.cpp.i
+
+InsertionSort.s: InsertionSort.cpp.s
+.PHONY : InsertionSort.s
+
+# target to generate assembly for a file
+InsertionSort.cpp.s:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/InsertionSort.cpp.s
+.PHONY : InsertionSort.cpp.s
 
 SelectionSort.o: SelectionSort.cpp.o
 .PHONY : SelectionSort.o
@@ -201,10 +239,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
+	@echo "... InsertionSort"
 	@echo "... SelectionSort"
 	@echo "... BubbleSort.o"
 	@echo "... BubbleSort.i"
 	@echo "... BubbleSort.s"
+	@echo "... InsertionSort.o"
+	@echo "... InsertionSort.i"
+	@echo "... InsertionSort.s"
 	@echo "... SelectionSort.o"
 	@echo "... SelectionSort.i"
 	@echo "... SelectionSort.s"

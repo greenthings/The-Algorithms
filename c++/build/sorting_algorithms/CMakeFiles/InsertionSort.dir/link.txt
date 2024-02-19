@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libInsertionSort.a CMakeFiles/InsertionSort.dir/InsertionSort.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libInsertionSort.a

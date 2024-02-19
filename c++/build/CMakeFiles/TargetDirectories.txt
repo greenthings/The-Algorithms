@@ -6,5 +6,6 @@
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/common/CMakeFiles/rebuild_cache.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/BubbleSort.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/SelectionSort.dir
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/InsertionSort.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/edit_cache.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/rebuild_cache.dir
