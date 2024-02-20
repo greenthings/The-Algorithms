@@ -8,6 +8,10 @@
 
 using namespace std;
 
+// we can use just arr but we used vector, bc it is flexible.
+// assuming we used a static array, we have to initialize its size at first.
+// but we dont wanna make it static such as defining MAX_N 10000, wanna do this
+// flexible.
 vector<int> arr_vector;
 vector<int> merged_arr_vector;
 
@@ -26,6 +30,7 @@ void Merge(int low, int mid, int high) {
     if (arr_vector[i] <= arr_vector[j]) {
       merged_arr_vector[k++] = arr_vector[i++];
       // vecotr is dynamic.
+      // so, this will be error code.
       // merged_arr_vector.push_back(arr_vector[i]);
       // i++
     } else {
