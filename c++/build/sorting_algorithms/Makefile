@@ -186,6 +186,20 @@ MergeSort/fast:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/build
 .PHONY : MergeSort/fast
 
+# Convenience name for target.
+sorting_algorithms/CMakeFiles/QuickSort.dir/rule:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sorting_algorithms/CMakeFiles/QuickSort.dir/rule
+.PHONY : sorting_algorithms/CMakeFiles/QuickSort.dir/rule
+
+# Convenience name for target.
+QuickSort: sorting_algorithms/CMakeFiles/QuickSort.dir/rule
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
 BubbleSort.o: BubbleSort.cpp.o
 .PHONY : BubbleSort.o
 
@@ -258,6 +272,30 @@ MergeSort.cpp.s:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/MergeSort.cpp.s
 .PHONY : MergeSort.cpp.s
 
+QuickSort.o: QuickSort.cpp.o
+.PHONY : QuickSort.o
+
+# target to build an object file
+QuickSort.cpp.o:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/QuickSort.cpp.o
+.PHONY : QuickSort.cpp.o
+
+QuickSort.i: QuickSort.cpp.i
+.PHONY : QuickSort.i
+
+# target to preprocess a source file
+QuickSort.cpp.i:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/QuickSort.cpp.i
+.PHONY : QuickSort.cpp.i
+
+QuickSort.s: QuickSort.cpp.s
+.PHONY : QuickSort.s
+
+# target to generate assembly for a file
+QuickSort.cpp.s:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/QuickSort.cpp.s
+.PHONY : QuickSort.cpp.s
+
 RadixSort.o: RadixSort.cpp.o
 .PHONY : RadixSort.o
 
@@ -317,6 +355,7 @@ help:
 	@echo "... BubbleSort"
 	@echo "... InsertionSort"
 	@echo "... MergeSort"
+	@echo "... QuickSort"
 	@echo "... RadixSort"
 	@echo "... SelectionSort"
 	@echo "... BubbleSort.o"
@@ -328,6 +367,9 @@ help:
 	@echo "... MergeSort.o"
 	@echo "... MergeSort.i"
 	@echo "... MergeSort.s"
+	@echo "... QuickSort.o"
+	@echo "... QuickSort.i"
+	@echo "... QuickSort.s"
 	@echo "... RadixSort.o"
 	@echo "... RadixSort.i"
 	@echo "... RadixSort.s"

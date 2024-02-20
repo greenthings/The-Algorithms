@@ -58,4 +58,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "sorting_algorithms/CMakeFiles/InsertionSort.dir/DependInfo.cmake"
   "sorting_algorithms/CMakeFiles/RadixSort.dir/DependInfo.cmake"
   "sorting_algorithms/CMakeFiles/MergeSort.dir/DependInfo.cmake"
+  "sorting_algorithms/CMakeFiles/QuickSort.dir/DependInfo.cmake"
   )

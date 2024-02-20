@@ -207,6 +207,19 @@ MergeSort/fast:
 	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/build
 .PHONY : MergeSort/fast
 
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -242,6 +255,7 @@ help:
 	@echo "... BubbleSort"
 	@echo "... InsertionSort"
 	@echo "... MergeSort"
+	@echo "... QuickSort"
 	@echo "... RadixSort"
 	@echo "... SelectionSort"
 	@echo "... common"

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libQuickSort.a CMakeFiles/QuickSort.dir/QuickSort.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libQuickSort.a
