@@ -12,8 +12,8 @@ using namespace std;
 // assuming we used a static array, we have to initialize its size at first.
 // but we dont wanna make it static such as defining MAX_N 10000, wanna do this
 // flexible.
-vector<int> arr_vector;
-vector<int> merged_arr_vector;
+vector<int> arr_vector_merge;
+vector<int> merged_arr_vector_merge;
 
 void Merge(int low, int mid, int high) {
 
@@ -27,30 +27,30 @@ void Merge(int low, int mid, int high) {
   // put data in one array.
   // true condition
   while (i <= mid && j <= high) {
-    if (arr_vector[i] <= arr_vector[j]) {
-      merged_arr_vector[k++] = arr_vector[i++];
+    if (arr_vector_merge[i] <= arr_vector_merge[j]) {
+      merged_arr_vector_merge[k++] = arr_vector_merge[i++];
       // vecotr is dynamic.
       // so, this will be error code.
-      // merged_arr_vector.push_back(arr_vector[i]);
+      // merged_arr_vector_merge.push_back(arr_vector_merge[i]);
       // i++
     } else {
-      merged_arr_vector[k++] = arr_vector[j++];
+      merged_arr_vector_merge[k++] = arr_vector_merge[j++];
     }
   }
   cout << "merged_arr" << endl;
-  printArrayVector(merged_arr_vector);
+  printArrayVector(merged_arr_vector_merge);
 
   // the left items
   while (i <= mid) {
-    merged_arr_vector[k++] = arr_vector[i++];
+    merged_arr_vector_merge[k++] = arr_vector_merge[i++];
   }
 
   while (j <= high) {
-    merged_arr_vector[k++] = arr_vector[j++];
+    merged_arr_vector_merge[k++] = arr_vector_merge[j++];
   }
 
   for (int l = low; l <= high; l++) {
-    arr_vector[l] = merged_arr_vector[l];
+    arr_vector_merge[l] = merged_arr_vector_merge[l];
   }
 }
 
@@ -73,9 +73,11 @@ void MergeSortTrigger(int arr[]) {
 
   // vectorization
   for (int i = 0; i < n; i++) {
-    arr_vector.push_back(arr[i]);
-    merged_arr_vector.push_back(0);
+    arr_vector_merge.push_back(arr[i]);
+    merged_arr_vector_merge.push_back(0);
   }
 
   MergeSort(low, high);
+
+  arr_vector_merge.clear();
 }
