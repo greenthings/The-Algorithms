@@ -1,7 +1,6 @@
 #include "RadixSort.h"
 #include "../common/common.h"
 #include <stdio.h>
-#include <iostream>
 #include <vector>
 
 using namespace std;
@@ -21,7 +20,7 @@ int maxDigitPosition(int arr[]) {
     quotant = (quotant / 10);
     // The unit digit is 1 and the tens digit is 2..
     count++;
-  } while(quotant != 0);
+  } while (quotant != 0);
 
   return count;
 }
@@ -31,7 +30,7 @@ void RadixSort(int arr[]) {
 
   // Check max digit's position.
   int MAXK = maxDigitPosition(arr);
-  //int MAXK = 10;
+  // int MAXK = 10;
 
   int divider = 1;
   for (int position = 0; position < MAXK; position++) {
@@ -44,7 +43,7 @@ void RadixSort(int arr[]) {
       int digit = (arr[i] / divider) % 10;
       new_arr[digit].push_back(arr[i]);
     }
-    
+
     // Make them into one array
     int index = 0;
     for (int i = 0; i < MAX_DIGIT; i++) {

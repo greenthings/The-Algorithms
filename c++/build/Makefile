@@ -194,6 +194,19 @@ RadixSort/fast:
 	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/RadixSort.dir/build.make sorting_algorithms/CMakeFiles/RadixSort.dir/build
 .PHONY : RadixSort/fast
 
+#=============================================================================
+# Target rules for targets named MergeSort
+
+# Build rule for target.
+MergeSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeSort
+.PHONY : MergeSort
+
+# fast build rule for target.
+MergeSort/fast:
+	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -228,6 +241,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
 	@echo "... InsertionSort"
+	@echo "... MergeSort"
 	@echo "... RadixSort"
 	@echo "... SelectionSort"
 	@echo "... common"

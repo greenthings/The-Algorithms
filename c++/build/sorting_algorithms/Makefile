@@ -172,6 +172,20 @@ RadixSort/fast:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/RadixSort.dir/build.make sorting_algorithms/CMakeFiles/RadixSort.dir/build
 .PHONY : RadixSort/fast
 
+# Convenience name for target.
+sorting_algorithms/CMakeFiles/MergeSort.dir/rule:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sorting_algorithms/CMakeFiles/MergeSort.dir/rule
+.PHONY : sorting_algorithms/CMakeFiles/MergeSort.dir/rule
+
+# Convenience name for target.
+MergeSort: sorting_algorithms/CMakeFiles/MergeSort.dir/rule
+.PHONY : MergeSort
+
+# fast build rule for target.
+MergeSort/fast:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
+
 BubbleSort.o: BubbleSort.cpp.o
 .PHONY : BubbleSort.o
 
@@ -219,6 +233,30 @@ InsertionSort.s: InsertionSort.cpp.s
 InsertionSort.cpp.s:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/InsertionSort.cpp.s
 .PHONY : InsertionSort.cpp.s
+
+MergeSort.o: MergeSort.cpp.o
+.PHONY : MergeSort.o
+
+# target to build an object file
+MergeSort.cpp.o:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/MergeSort.cpp.o
+.PHONY : MergeSort.cpp.o
+
+MergeSort.i: MergeSort.cpp.i
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
 
 RadixSort.o: RadixSort.cpp.o
 .PHONY : RadixSort.o
@@ -278,6 +316,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
 	@echo "... InsertionSort"
+	@echo "... MergeSort"
 	@echo "... RadixSort"
 	@echo "... SelectionSort"
 	@echo "... BubbleSort.o"
@@ -286,6 +325,9 @@ help:
 	@echo "... InsertionSort.o"
 	@echo "... InsertionSort.i"
 	@echo "... InsertionSort.s"
+	@echo "... MergeSort.o"
+	@echo "... MergeSort.i"
+	@echo "... MergeSort.s"
 	@echo "... RadixSort.o"
 	@echo "... RadixSort.i"
 	@echo "... RadixSort.s"

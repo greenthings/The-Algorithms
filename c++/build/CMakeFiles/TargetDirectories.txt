@@ -8,5 +8,6 @@
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/SelectionSort.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/InsertionSort.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/RadixSort.dir
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/MergeSort.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/edit_cache.dir
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms/CMakeFiles/rebuild_cache.dir
