@@ -21,7 +21,7 @@ void printArrayVector(vector<int> arr) {
   cout << endl;
 }
 
-// swap two element
+// swap two elements
 void swap(int &a, int &b) {
   int temp = a;
   a = b;
