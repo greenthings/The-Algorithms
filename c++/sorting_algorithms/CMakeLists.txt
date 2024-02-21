@@ -14,6 +14,7 @@ add_library(InsertionSort STATIC InsertionSort.cpp)
 add_library(RadixSort STATIC RadixSort.cpp)
 add_library(MergeSort STATIC MergeSort.cpp)
 add_library(QuickSort STATIC QuickSort.cpp)
+add_library(HeapSort STATIC HeapSort.cpp)
 
 # Header File Path
 # target_include_directories(sorting_algorithms PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
@@ -23,6 +24,7 @@ target_include_directories(InsertionSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algo
 target_include_directories(RadixSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
 target_include_directories(MergeSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
 target_include_directories(QuickSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
+target_include_directories(HeapSort PUBLIC ${CMAKE_SOURCE_DIR}/sorting_algorithms)
 
 
 # Compile Option
@@ -32,3 +34,4 @@ target_compile_options(InsertionSort PRIVATE -Wall)
 target_compile_options(RadixSort PRIVATE -Wall)
 target_compile_options(MergeSort PRIVATE -Wall)
 target_compile_options(QuickSort PRIVATE -Wall)
+target_compile_options(HeapSort PRIVATE -Wall)

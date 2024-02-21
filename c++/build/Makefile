@@ -220,6 +220,19 @@ QuickSort/fast:
 	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/build
 .PHONY : QuickSort/fast
 
+#=============================================================================
+# Target rules for targets named HeapSort
+
+# Build rule for target.
+HeapSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HeapSort
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/HeapSort.dir/build.make sorting_algorithms/CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -253,6 +266,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
+	@echo "... HeapSort"
 	@echo "... InsertionSort"
 	@echo "... MergeSort"
 	@echo "... QuickSort"

@@ -200,6 +200,20 @@ QuickSort/fast:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/build
 .PHONY : QuickSort/fast
 
+# Convenience name for target.
+sorting_algorithms/CMakeFiles/HeapSort.dir/rule:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sorting_algorithms/CMakeFiles/HeapSort.dir/rule
+.PHONY : sorting_algorithms/CMakeFiles/HeapSort.dir/rule
+
+# Convenience name for target.
+HeapSort: sorting_algorithms/CMakeFiles/HeapSort.dir/rule
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/HeapSort.dir/build.make sorting_algorithms/CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
 BubbleSort.o: BubbleSort.cpp.o
 .PHONY : BubbleSort.o
 
@@ -223,6 +237,30 @@ BubbleSort.s: BubbleSort.cpp.s
 BubbleSort.cpp.s:
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/BubbleSort.dir/build.make sorting_algorithms/CMakeFiles/BubbleSort.dir/BubbleSort.cpp.s
 .PHONY : BubbleSort.cpp.s
+
+HeapSort.o: HeapSort.cpp.o
+.PHONY : HeapSort.o
+
+# target to build an object file
+HeapSort.cpp.o:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/HeapSort.dir/build.make sorting_algorithms/CMakeFiles/HeapSort.dir/HeapSort.cpp.o
+.PHONY : HeapSort.cpp.o
+
+HeapSort.i: HeapSort.cpp.i
+.PHONY : HeapSort.i
+
+# target to preprocess a source file
+HeapSort.cpp.i:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/HeapSort.dir/build.make sorting_algorithms/CMakeFiles/HeapSort.dir/HeapSort.cpp.i
+.PHONY : HeapSort.cpp.i
+
+HeapSort.s: HeapSort.cpp.s
+.PHONY : HeapSort.s
+
+# target to generate assembly for a file
+HeapSort.cpp.s:
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build && $(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/HeapSort.dir/build.make sorting_algorithms/CMakeFiles/HeapSort.dir/HeapSort.cpp.s
+.PHONY : HeapSort.cpp.s
 
 InsertionSort.o: InsertionSort.cpp.o
 .PHONY : InsertionSort.o
@@ -353,6 +391,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BubbleSort"
+	@echo "... HeapSort"
 	@echo "... InsertionSort"
 	@echo "... MergeSort"
 	@echo "... QuickSort"
@@ -361,6 +400,9 @@ help:
 	@echo "... BubbleSort.o"
 	@echo "... BubbleSort.i"
 	@echo "... BubbleSort.s"
+	@echo "... HeapSort.o"
+	@echo "... HeapSort.i"
+	@echo "... HeapSort.s"
 	@echo "... InsertionSort.o"
 	@echo "... InsertionSort.i"
 	@echo "... InsertionSort.s"

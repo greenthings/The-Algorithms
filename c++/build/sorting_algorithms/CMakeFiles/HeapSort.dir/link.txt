@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libHeapSort.a CMakeFiles/HeapSort.dir/HeapSort.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libHeapSort.a
