@@ -21,6 +21,13 @@ void printArrayVector(vector<int> arr) {
   cout << endl;
 }
 
+void printArraywithLength(int arr[], int n) {
+  for (int i = 0; i < n; i++) {
+    cout << arr[i] << " ";
+  }
+  cout << endl;
+}
+
 // swap two elements
 void swap(int &a, int &b) {
   int temp = a;
