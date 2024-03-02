@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common -I/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms
+CXX_INCLUDES = -I/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common -I/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms -I/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers
 
 CXX_FLAGSarm64 = -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall
 

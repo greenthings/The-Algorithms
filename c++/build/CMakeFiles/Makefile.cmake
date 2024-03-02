@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common/CMakeLists.txt"
   "/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCInformation.cmake"
@@ -53,11 +55,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.dir/DependInfo.cmake"
   "common/CMakeFiles/common.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/BubbleSort.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/SelectionSort.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/InsertionSort.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/RadixSort.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/MergeSort.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/QuickSort.dir/DependInfo.cmake"
-  "sorting_algorithms/CMakeFiles/HeapSort.dir/DependInfo.cmake"
+  "sorting_algorithms/CMakeFiles/sorting_algorithms.dir/DependInfo.cmake"
   )

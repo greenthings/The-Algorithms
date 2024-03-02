@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -143,95 +144,17 @@ common/fast:
 .PHONY : common/fast
 
 #=============================================================================
-# Target rules for targets named BubbleSort
+# Target rules for targets named sorting_algorithms
 
 # Build rule for target.
-BubbleSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BubbleSort
-.PHONY : BubbleSort
+sorting_algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sorting_algorithms
+.PHONY : sorting_algorithms
 
 # fast build rule for target.
-BubbleSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/BubbleSort.dir/build.make sorting_algorithms/CMakeFiles/BubbleSort.dir/build
-.PHONY : BubbleSort/fast
-
-#=============================================================================
-# Target rules for targets named SelectionSort
-
-# Build rule for target.
-SelectionSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SelectionSort
-.PHONY : SelectionSort
-
-# fast build rule for target.
-SelectionSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/SelectionSort.dir/build.make sorting_algorithms/CMakeFiles/SelectionSort.dir/build
-.PHONY : SelectionSort/fast
-
-#=============================================================================
-# Target rules for targets named InsertionSort
-
-# Build rule for target.
-InsertionSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InsertionSort
-.PHONY : InsertionSort
-
-# fast build rule for target.
-InsertionSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/InsertionSort.dir/build.make sorting_algorithms/CMakeFiles/InsertionSort.dir/build
-.PHONY : InsertionSort/fast
-
-#=============================================================================
-# Target rules for targets named RadixSort
-
-# Build rule for target.
-RadixSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RadixSort
-.PHONY : RadixSort
-
-# fast build rule for target.
-RadixSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/RadixSort.dir/build.make sorting_algorithms/CMakeFiles/RadixSort.dir/build
-.PHONY : RadixSort/fast
-
-#=============================================================================
-# Target rules for targets named MergeSort
-
-# Build rule for target.
-MergeSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeSort
-.PHONY : MergeSort
-
-# fast build rule for target.
-MergeSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/MergeSort.dir/build.make sorting_algorithms/CMakeFiles/MergeSort.dir/build
-.PHONY : MergeSort/fast
-
-#=============================================================================
-# Target rules for targets named QuickSort
-
-# Build rule for target.
-QuickSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QuickSort
-.PHONY : QuickSort
-
-# fast build rule for target.
-QuickSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/QuickSort.dir/build.make sorting_algorithms/CMakeFiles/QuickSort.dir/build
-.PHONY : QuickSort/fast
-
-#=============================================================================
-# Target rules for targets named HeapSort
-
-# Build rule for target.
-HeapSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HeapSort
-.PHONY : HeapSort
-
-# fast build rule for target.
-HeapSort/fast:
-	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/HeapSort.dir/build.make sorting_algorithms/CMakeFiles/HeapSort.dir/build
-.PHONY : HeapSort/fast
+sorting_algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f sorting_algorithms/CMakeFiles/sorting_algorithms.dir/build.make sorting_algorithms/CMakeFiles/sorting_algorithms.dir/build
+.PHONY : sorting_algorithms/fast
 
 test.o: test.cpp.o
 .PHONY : test.o
@@ -265,14 +188,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... BubbleSort"
-	@echo "... HeapSort"
-	@echo "... InsertionSort"
-	@echo "... MergeSort"
-	@echo "... QuickSort"
-	@echo "... RadixSort"
-	@echo "... SelectionSort"
 	@echo "... common"
+	@echo "... sorting_algorithms"
 	@echo "... test"
 	@echo "... test.o"
 	@echo "... test.i"
@@ -288,6 +205,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

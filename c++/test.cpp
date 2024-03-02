@@ -3,13 +3,21 @@
 #include <stdio.h>
 
 #include "./common/common.h"
-#include "./sorting_algorithms/BubbleSort.h"
-#include "./sorting_algorithms/HeapSort.h"
-#include "./sorting_algorithms/InsertionSort.h"
-#include "./sorting_algorithms/MergeSort.h"
-#include "./sorting_algorithms/QuickSort.h"
-#include "./sorting_algorithms/RadixSort.h"
-#include "./sorting_algorithms/SelectionSort.h"
+// #include "./sorting_algorithms/BubbleSort.h"
+// #include "./sorting_algorithms/HeapSort.h"
+// #include "./sorting_algorithms/InsertionSort.h"
+// #include "./sorting_algorithms/MergeSort.h"
+// #include "./sorting_algorithms/QuickSort.h"
+// #include "./sorting_algorithms/RadixSort.h"
+// #include "./sorting_algorithms/SelectionSort.h"
+
+#include "./sorting_algorithms_headers/BubbleSort.h"
+#include "./sorting_algorithms_headers/HeapSort.h"
+#include "./sorting_algorithms_headers/InsertionSort.h"
+#include "./sorting_algorithms_headers/MergeSort.h"
+#include "./sorting_algorithms_headers/QuickSort.h"
+#include "./sorting_algorithms_headers/RadixSort.h"
+#include "./sorting_algorithms_headers/SelectionSort.h"
 
 using namespace std;
 

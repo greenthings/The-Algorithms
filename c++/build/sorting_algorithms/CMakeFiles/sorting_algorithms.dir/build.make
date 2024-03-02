@@ -83,17 +83,113 @@ sorting_algorithms/CMakeFiles/sorting_algorithms.dir/BubbleSort.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/BubbleSort.cpp.s"
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/BubbleSort.cpp -o CMakeFiles/sorting_algorithms.dir/BubbleSort.cpp.s
 
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/flags.make
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/HeapSort.cpp
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o -MF CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o.d -o CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o -c /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/HeapSort.cpp
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.i"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/HeapSort.cpp > CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.i
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.s"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/HeapSort.cpp -o CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.s
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/flags.make
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.cpp
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o -MF CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o.d -o CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o -c /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.cpp
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.i"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.cpp > CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.i
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.s"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.cpp -o CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.s
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/flags.make
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/MergeSort.cpp
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o -MF CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o.d -o CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o -c /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/MergeSort.cpp
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.i"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/MergeSort.cpp > CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.i
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.s"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/MergeSort.cpp -o CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.s
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/flags.make
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/QuickSort.cpp
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o -MF CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o.d -o CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o -c /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/QuickSort.cpp
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.i"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/QuickSort.cpp > CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.i
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.s"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/QuickSort.cpp -o CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.s
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/flags.make
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/RadixSort.cpp
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o -MF CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o.d -o CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o -c /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/RadixSort.cpp
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.i"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/RadixSort.cpp > CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.i
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.s"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/RadixSort.cpp -o CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.s
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/flags.make
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.cpp
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o -MF CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o.d -o CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o -c /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.cpp
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.i"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.cpp > CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.i
+
+sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.s"
+	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.cpp -o CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.s
+
 # Object files for target sorting_algorithms
 sorting_algorithms_OBJECTS = \
-"CMakeFiles/sorting_algorithms.dir/BubbleSort.cpp.o"
+"CMakeFiles/sorting_algorithms.dir/BubbleSort.cpp.o" \
+"CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o" \
+"CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o" \
+"CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o" \
+"CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o" \
+"CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o" \
+"CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o"
 
 # External object files for target sorting_algorithms
 sorting_algorithms_EXTERNAL_OBJECTS =
 
 sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/BubbleSort.cpp.o
+sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/HeapSort.cpp.o
+sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/InsertionSort.cpp.o
+sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/MergeSort.cpp.o
+sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/QuickSort.cpp.o
+sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/RadixSort.cpp.o
+sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/SelectionSort.cpp.o
 sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/build.make
 sorting_algorithms/libsorting_algorithms.a: sorting_algorithms/CMakeFiles/sorting_algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsorting_algorithms.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libsorting_algorithms.a"
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && $(CMAKE_COMMAND) -P CMakeFiles/sorting_algorithms.dir/cmake_clean_target.cmake
 	cd /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/build/sorting_algorithms && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorting_algorithms.dir/link.txt --verbose=$(VERBOSE)
 

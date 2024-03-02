@@ -794,20 +794,26 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common/common.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/BubbleSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/HeapSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/MergeSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/QuickSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/RadixSort.h \
-  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.h
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/BubbleSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/HeapSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/InsertionSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/MergeSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/QuickSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/RadixSort.h \
+  /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/SelectionSort.h
 
 
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/QuickSort.h:
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/SelectionSort.h:
 
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/MergeSort.h:
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/QuickSort.h:
 
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/HeapSort.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mbstate_t.h:
+
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/MergeSort.h:
+
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/InsertionSort.h:
+
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/BubbleSort.h:
 
 /Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/common/common.h:
 
@@ -999,8 +1005,6 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string.h:
 
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/SelectionSort.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
@@ -1053,8 +1057,6 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/concepts:
 
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/BubbleSort.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/compare:
@@ -1062,8 +1064,6 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cmath:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/climits:
-
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/InsertionSort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/chrono:
 
@@ -1170,6 +1170,8 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/appleapiopts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
+
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/HeapSort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wchar_t.h:
 
@@ -1625,8 +1627,6 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/locale.h:
 
-/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms/RadixSort.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tuple_dir/tuple_size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/arm/arch.h:
@@ -1731,8 +1731,6 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mbstate_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/ordering.h:
@@ -1810,6 +1808,8 @@ CMakeFiles/test.dir/test.cpp.o: /Users/junshin/Desktop/The-Algorithms-and-Data-S
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/is_transparent.h:
+
+/Users/junshin/Desktop/The-Algorithms-and-Data-Structures/c++/sorting_algorithms_headers/RadixSort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/day.h:
 
