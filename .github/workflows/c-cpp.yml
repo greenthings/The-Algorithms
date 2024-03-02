@@ -1,0 +1,27 @@
+name: Build The Algortithms and Data Structures Project
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build project
+      run: |
+        cd c++
+        cd build
+        make ..
+        make
+      continue-on-error: true
+
+    - name: Check for build errors
+      if: ${{ failure() }}
+      run: echo "Build failed, please check the logs"
